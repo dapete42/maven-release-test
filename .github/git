@@ -1,3 +1,8 @@
 #!/bin/bash
 
-git --allow-unrelated-histories "$@"
+if [ "$1" = "push" ]
+then
+  git --allow-unrelated-histories "$@"
+else
+  git "$@"
+fi
