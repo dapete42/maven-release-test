@@ -20,22 +20,13 @@
     </properties>
 
     <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>com.amashchenko.maven.plugin</groupId>
-                    <artifactId>gitflow-maven-plugin</artifactId>
-                    <version>1.21.0</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
         <plugins>
             <plugin>
                 <groupId>com.amashchenko.maven.plugin</groupId>
                 <artifactId>gitflow-maven-plugin</artifactId>
+                <version>1.21.0</version>
                 <configuration>
                     <mvnExecutable>${project.basedir}/mvnw</mvnExecutable>
-                    <releaseRebase>true</releaseRebase>
                     <gitFlowConfig>
                         <developmentBranch>main</developmentBranch>
                         <productionBranch>release</productionBranch>
