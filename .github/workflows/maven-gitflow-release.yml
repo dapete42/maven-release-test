@@ -29,4 +29,4 @@ jobs:
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
       - name: Maven gitflow release
-        run: ./mvnw -B gitflow:release gitflow:release-finish
+        run: ./mvnw -B gitflow:release
