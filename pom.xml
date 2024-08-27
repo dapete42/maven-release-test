@@ -6,7 +6,7 @@
 
     <groupId>net.dapete.test</groupId>
     <artifactId>maven-release-test-parent</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
 
     <packaging>pom</packaging>
 
@@ -35,7 +35,6 @@
                 <artifactId>gitflow-maven-plugin</artifactId>
                 <configuration>
                     <mvnExecutable>${project.basedir}/mvnw</mvnExecutable>
-                    <releaseRebase>true</releaseRebase>
                     <gitFlowConfig>
                         <developmentBranch>main</developmentBranch>
                         <productionBranch>release</productionBranch>
