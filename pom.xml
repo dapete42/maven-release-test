@@ -35,6 +35,7 @@
                 <artifactId>gitflow-maven-plugin</artifactId>
                 <configuration>
                     <mvnExecutable>${project.basedir}/mvnw</mvnExecutable>
+                    <releaseRebase>true</releaseRebase>
                     <gitFlowConfig>
                         <developmentBranch>main</developmentBranch>
                         <productionBranch>release</productionBranch>
