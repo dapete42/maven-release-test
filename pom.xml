@@ -27,6 +27,7 @@
                 <version>1.21.0</version>
                 <configuration>
                     <mvnExecutable>${project.basedir}/mvnw</mvnExecutable>
+                    <gitExecutable>${project.basedir}/.github/git</gitExecutable>
                     <gitFlowConfig>
                         <developmentBranch>main</developmentBranch>
                         <productionBranch>release</productionBranch>
