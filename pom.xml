@@ -39,7 +39,6 @@
                         <developmentBranch>main</developmentBranch>
                         <productionBranch>release</productionBranch>
                         <versionTagPrefix>v</versionTagPrefix>
-                        <releaseMergeFFOnly>true</releaseMergeFFOnly>
                     </gitFlowConfig>
                 </configuration>
             </plugin>
